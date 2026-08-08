@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px; height: 1080px;
+    font-family: 'Pretendard', 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
+    background: linear-gradient(145deg, #0e2a4a 0%, #1a4a7a 55%, #2d6da3 100%);
+    color: #fff;
+    display: flex; flex-direction: column; justify-content: space-between;
+    padding: 90px 80px;
+    position: relative; overflow: hidden;
+  }
+  .deco {
+    position: absolute; border-radius: 50%;
+    background: rgba(255,255,255,0.06);
+  }
+  .deco1 { width: 620px; height: 620px; right: -200px; top: -200px; }
+  .deco2 { width: 380px; height: 380px; left: -140px; bottom: -140px; }
+  .badge {
+    display: inline-block; align-self: flex-start;
+    background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.35);
+    border-radius: 999px; padding: 14px 36px;
+    font-size: 30px; font-weight: 600; letter-spacing: 0.02em;
+  }
+  .title {
+    font-size: 88px; font-weight: 800; line-height: 1.25;
+    word-break: keep-all; white-space: pre-line;
+    z-index: 1;
+  }
+  .title .accent { color: #7dd3fc; }
+  .subtitle {
+    font-size: 40px; font-weight: 400; color: rgba(255,255,255,0.85);
+    line-height: 1.4; word-break: keep-all; margin-top: 28px;
+  }
+  .footer {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    z-index: 1;
+  }
+  .clinic { font-size: 42px; font-weight: 700; letter-spacing: 0.04em; }
+  .clinic small { display: block; font-size: 26px; font-weight: 400; color: rgba(255,255,255,0.7); margin-top: 8px; }
+</style>
+</head>
+<body>
+  <div class="deco deco1"></div>
+  <div class="deco deco2"></div>
+  <div class="badge">{{BADGE}}</div>
+  <div>
+    <div class="title">{{TITLE}}</div>
+    <div class="subtitle">{{SUBTITLE}}</div>
+  </div>
+  <div class="footer">
+    <div class="clinic">{{CLINIC_NAME}}<small>{{CLINIC_SUB}}</small></div>
+  </div>
+</body>
+</html>

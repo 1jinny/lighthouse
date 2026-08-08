@@ -1,0 +1,12 @@
+{
+  "name": "seo-publisher",
+  "private": true,
+  "type": "module",
+  "description": "블랑드림치과 SEO 글 생성/발행 도구 (네이버 블로그, 구글 블로그, 썸네일, 스레드)",
+  "scripts": {
+    "thumbnail": "node scripts/make-thumbnail.js"
+  },
+  "dependencies": {
+    "playwright-core": "^1.49.0"
+  }
+}
