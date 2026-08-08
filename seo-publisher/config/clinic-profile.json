@@ -1,24 +1,35 @@
 {
-  "name": "블랑드림치과",
-  "nameEn": "Blanc Dream Dental Clinic",
-  "website": "",
-  "phone": "",
-  "address": "",
-  "nearbyStation": "",
+  "name": "불당드림치과",
+  "nameEn": "Buldang Dream Dental Clinic",
+  "website": "http://buldangdream.kr",
+  "phone": "041-417-2882",
+  "address": "충남 천안시 서북구 불당동 (상세 주소 확인 필요)",
+  "region": ["천안", "불당동", "불당신도시", "서북구", "아산 탕정"],
   "closedDays": [],
   "naverBlogUrl": "",
   "googleBlogUrl": "",
   "threadsHandle": "",
-  "positioning": [],
-  "treatments": [],
+  "positioning": [
+    "한 곳에서 모든 진료가 가능한 원스톱 치과",
+    "치료 후 사후관리까지 책임"
+  ],
+  "treatments": [
+    "임플란트",
+    "치아교정",
+    "투명교정",
+    "심미보철",
+    "사랑니 발치",
+    "사후관리"
+  ],
   "targetKeywords": {
-    "primary": [],
-    "secondary": []
+    "primary": ["천안치과", "불당동치과", "천안 임플란트", "천안 치아교정"],
+    "secondary": ["불당신도시 치과", "천안 투명교정", "천안 사랑니 발치", "불당동 임플란트", "천안 심미보철"]
   },
+  "benchmark": "블랑쉬치과 블로그 (config/benchmark-profile.json) — 글 톤과 구성 참고",
   "tone": {
     "language": "ko",
-    "style": "블랑쉬치과 블로그 벤치마크: 전문적이지만 환자가 이해하기 쉬운 설명체, 과장 없는 신뢰 중심",
-    "compliance": "의료광고법 준수: 치료 효과 보장/과장 표현 금지, 비포애프터는 조건 명시"
+    "style": "전문적이지만 환자가 이해하기 쉬운 설명체, 과장 없는 신뢰 중심, 지역 주민 대상 친근함",
+    "compliance": "의료광고법 준수: 치료 효과 보장/과장 표현 금지, 최상급 표현 금지, 비포애프터는 조건 명시"
   },
-  "_note": "빈 필드는 병원 정보 확인 후 채울 것. benchmark-profile.json은 글 스타일 참고용(블랑쉬치과)."
+  "_todo": "주소 상세, 진료시간, 휴진일, 원장 성함/약력, 네이버 블로그·스레드 계정 확인 후 채울 것"
 }

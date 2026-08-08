@@ -1,6 +1,6 @@
-# SEO Article Publisher — 블랑드림치과
+# SEO Article Publisher — 불당드림치과
 
-**블랑드림치과** 마케팅용 콘텐츠 제작 도구.
+**불당드림치과** 마케팅용 콘텐츠 제작 도구.
 글 스타일은 **블랑쉬치과 블로그**를 벤치마크로 삼는다.
 
 ## 결과물 (글 1건당 4종 세트)
@@ -17,7 +17,7 @@
 ```
 seo-publisher/
 ├── config/
-│   ├── clinic-profile.json      # 블랑드림치과 정보 (빈 필드 채워야 함)
+│   ├── clinic-profile.json      # 불당드림치과 정보 (빈 필드 채워야 함)
 │   └── benchmark-profile.json   # 블랑쉬치과 (스타일 벤치마크)
 ├── templates/
 │   └── thumbnail.html           # 썸네일 디자인 템플릿 (1080x1080)
@@ -46,7 +46,7 @@ node scripts/make-thumbnail.js \
 ## 작업 순서
 
 1. 참고 글을 `articles/input/`에 넣는다 (또는 채팅으로 전달)
-2. 블랑드림치과 프로필 + 벤치마크 톤 기준으로 채널별 글 생성 → `articles/output/`
+2. 불당드림치과 프로필 + 벤치마크 톤 기준으로 채널별 글 생성 → `articles/output/`
 3. 썸네일 텍스트 뽑아서 PNG 생성
 4. 발행: 네이버 블로그는 공식 API가 없어 수동 업로드(글 복붙), Blogger는 API 발행 가능, 스레드는 Threads API 발행 가능
 
