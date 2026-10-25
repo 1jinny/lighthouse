@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: {{WIDTH}}px; height: {{HEIGHT}}px;
+    font-family: 'Pretendard', 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
+    position: relative; overflow: hidden;
+    background: {{BG_FALLBACK}};
+  }
+  .bg {
+    position: absolute; inset: 0;
+    background-image: {{BG_IMAGE}};
+    background-size: cover;
+    background-position: {{BG_POSITION}};
+  }
+  .text-block {
+    position: absolute;
+    left: 48px; bottom: 48px;
+    display: flex; flex-direction: column; align-items: flex-start;
+    gap: 0;
+  }
+  .label {
+    display: inline-block;
+    background: #1b2430;
+    color: #ffffff;
+    font-size: 30px; font-weight: 500;
+    letter-spacing: 0.01em;
+    padding: 8px 18px;
+    margin-bottom: 14px;
+  }
+  .title-line {
+    display: inline-block;
+    background: #a3e04e;
+    color: #111111;
+    font-size: 62px; font-weight: 800;
+    line-height: 1.0;
+    padding: 14px 20px 16px;
+    margin-top: 10px;
+    word-break: keep-all;
+  }
+</style>
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="text-block">
+    <span class="label">{{LABEL}}</span>
+    {{TITLE_LINES}}
+  </div>
+</body>
+</html>
